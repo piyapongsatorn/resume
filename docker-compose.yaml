@@ -1,8 +1,8 @@
-version: '3'
+version: '3.5'
 services:
   myapp:
-    image: piyapong/node-express
+    image: piyapongsatorn/resume
     ports:
-      - "3000:3000"
-    command: "npm start"
+      - "8024:8000"
+    command: "node index.js"
 
